@@ -1,3 +1,8 @@
+body {
+    background-color: blanchedalmond;
+}
+
+
 h1 {
     display:flex;
     align-items: center;
@@ -12,9 +17,46 @@ ul {
     flex-wrap: wrap;
 }
 
-li {
+.spot {
+    background-color: saddlebrown ;
     border: 2px dotted;
     padding: .2em;
     margin: 0 .5em;
     flex: 1 1 25%;
 }
+
+.links {
+    list-style-type: none;
+    justify-content: flex-end ;
+    justify-content: space-evenly;
+    font-size: larger;
+    
+}
+ .menu {
+     color: burlywood;
+     font-weight: bold;
+     font-style: normal;
+ }
+ 
+ .reviews {
+    color: burlywood;
+    font-weight: bold;
+    font-style: normal;
+ }
+
+ .shop{
+    color: sandybrown;
+    font-weight: bold;
+    font-style: normal;
+ }
+
+ .number {
+    color: sandybrown;
+    font-weight: bold;
+    font-style: normal;
+ }
+
+ address {
+     font-size: larger;
+     color:azure
+ }
